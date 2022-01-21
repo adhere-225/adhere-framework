@@ -1,0 +1,3 @@
+[submodule "adhere-api"]
+	path = adhere-api
+	url = https://github.com/adhere-225/adhere-api.git
