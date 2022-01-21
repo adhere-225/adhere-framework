@@ -4,3 +4,6 @@
 [submodule "adhere-core"]
 	path = adhere-core
 	url = https://github.com/adhere-225/adhere-core.git
+[submodule "adhere-system"]
+	path = adhere-system
+	url = https://github.com/adhere-225/adhere-system.git
