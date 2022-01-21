@@ -1,3 +1,4 @@
+https://img.shields.io/github/license/adhere-225/adhere-framework
 ## 一、软件架构
 
 > 1、`SpringBoot 2.2.8` + `JPA（暂定）` 核心框架
