@@ -1,3 +1,6 @@
 [submodule "adhere-api"]
 	path = adhere-api
 	url = https://github.com/adhere-225/adhere-api.git
+[submodule "adhere-core"]
+	path = adhere-core
+	url = https://github.com/adhere-225/adhere-core.git
