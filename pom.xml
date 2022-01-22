@@ -25,6 +25,17 @@
         <lombok.version>1.16.18</lombok.version>
         <commons-net.version>3.6</commons-net.version>
         <commons-pool2.version>2.11.1</commons-pool2.version>
+        <mybatis-plus.version>3.5.0</mybatis-plus.version>
+        <spring-data-mongodb.version>3.3.0</spring-data-mongodb.version>
+        <caffeine.version>3.0.5</caffeine.version>
+        <spring-boot-starter-data-redis.version>2.6.3</spring-boot-starter-data-redis.version>
+        <druid.version>1.2.8</druid.version>
+        <smart-doc.version>2.3.7</smart-doc.version>
+        <amqp-client.version>5.14.1</amqp-client.version>
+        <kafka.version>3.0.0</kafka.version>
+        <mysql-connector-java.version>8.0.27</mysql-connector-java.version>
+        <kafka.version>3.0.0</kafka.version>
+        <sharding.version>4.1.1</sharding.version>
     </properties>
 
     <!--springBoot的大版本-->
@@ -103,6 +114,82 @@
             <version>${commons-pool2.version}</version>
         </dependency>
         <!--ftp end-->
+
+        <!-- mybatis -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus</artifactId>
+            <version>${mybatis-plus.version}</version>
+        </dependency>
+
+        <!--mongodb-->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-mongodb</artifactId>
+            <version>${spring-data-mongodb.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.github.ben-manes.caffeine/caffeine -->
+        <dependency>
+            <groupId>com.github.ben-manes.caffeine</groupId>
+            <artifactId>caffeine</artifactId>
+            <version>${caffeine.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-redis -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+            <version>${spring-boot-starter-data-redis.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>${druid.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.github.shalousun/smart-doc -->
+        <dependency>
+            <groupId>com.github.shalousun</groupId>
+            <artifactId>smart-doc</artifactId>
+            <version>${smart-doc.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch -->
+        <dependency>
+            <groupId>org.elasticsearch</groupId>
+            <artifactId>elasticsearch</artifactId>
+            <version>${elasticsearch.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.rabbitmq/amqp-client -->
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>${amqp-client.version}</version>
+        </dependency>
+
+       <!-- kafka版本-->
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka_2.13</artifactId>
+            <version>${kafka.version}</version>
+        </dependency>
+
+        <!-- mysql连接驱动-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-connector-java.version}</version>
+        </dependency>
+
+        <!-- 分库分表-->
+        <dependency>
+            <groupId>org.apache.shardingsphere</groupId>
+            <artifactId>sharding-jdbc-spring-boot-starter</artifactId>
+            <version>${sharding.version}</version>
+        </dependency>
+
 
     </dependencies>
 </project>
